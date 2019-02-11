@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+h1{
+	font-size: 2rem;
+}
+.small{
+	font-size: .8rem;
+}
+.bold{
+	font-weight: 800;
+}
+// Materialize
+@import '~materialize-css/dist/css/materialize.min';
+
+//Fondos
+.hero{
+	background: url('/img/hero.jpg') no-repeat bottom center;
+	background-attachment: cover;
+	background-size: cover;
+	height: 500px;
+	width: 100vw;
+}
+.contacto{
+	background: url('/img/contacto.jpg') no-repeat bottom center;
+	background-attachment: cover;
+	background-size: cover;
+	height: auto;
+	width: 100vw;
+}
+.valign-wrapper{
+	height: 300px;
+}
+
+//MEDIAS
+
+@media screen and (min-width: 600px) {
+	.hero{
+		height: 80vh;
+	}
+	.valign-wrapper{
+		height: 400px;
+	}
+}
+
